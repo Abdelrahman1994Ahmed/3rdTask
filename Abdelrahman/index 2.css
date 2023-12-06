@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+}
+.section1{
+    position:absolute;
+    left:5px;
+    border-width:5px;
+    border-color: red;
+    border-style: dashed;
+}
+.image1{
+    height: 250px;
+    width: 250px;
+}
+.pfashion{
+    position: absolute;
+    left: 100px;top: 250px;
+    color: blueviolet;
+}
+.pre1{
+    position: absolute;
+    left: 10px;top: 300px;
+    color: salmon;
+}
+.section2{
+    position: absolute;
+    left: 350px;
+}
+.image2{
+    height: 250px;
+    width: 250;
+    box-shadow: 10px 10px gray;
+}
+.plifegoals{
+    position: absolute;
+    left: 100px;top: 250px;
+    color: blueviolet;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.p2{
+    position: absolute;
+    top: 300px;
+    text-transform: capitalize;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: darkgoldenrod;
+}
+.section3{
+    position: absolute;
+    left: 650px;
+    box-shadow: 10px 10px gray;
+}
+.image3{
+    height: 250px;
+    width: 250;
+}
+.pfootball{
+    position: absolute;
+    top: 300px;
+    text-transform: capitalize;
+    font-family: 'Dhurjati', sans-serif;
+    color: rgb(57, 11, 184);
+}
+.section4{
+    position: absolute;
+    left: 1100px;
+    box-shadow: 10px 10px blueviolet;
+}
+.image4{
+    height: 250px;
+    width: 250;
+}
+.universe{
+    position: absolute;
+    left: 175px;top: 250px;
+    color:darkmagenta;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.universedef{
+    position: absolute;
+    top: 300px;
+    font-family: 'Cinzel', serif;
+}
+.section5{
+    position: absolute;
+    top: 750px;
+    left: 500px;
+}
+.image5{
+    height: 250px;
+    width: 250;
+    border-radius: 50%;
+}
+.maths{
+    position: absolute;
+    left: 125px;top: 250px;
+    color:darkmagenta;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.languageofuniverse{
+    position: absolute;
+    top: 300px;
+    font-family: 'Cinzel', serif;
+}
+.section6{
+    position: absolute;
+    top: 1250px;
+    left: 400px;
+}
+.image6{
+    height: 250px;
+    width: 250;
+    box-shadow: 5px 5px black;
+}
+.history{
+    text-transform: capitalize;
+    position: absolute;
+    left: 75px;top: 250px;
+    color:darkmagenta;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.whatishistory{
+    position: absolute;
+    top: 300px;
+    text-transform: capitalize;
+    color: darkgoldenrod;
+}
+.section7{
+    position: absolute;
+    top: 1250px;
+    left: 750px;
+}
+.image7{
+    height: 250px;
+    width: 250;
+    box-shadow: 5px 5px yellowgreen;
+}
+.chaos{
+    text-transform: capitalize;
+    position: absolute;
+    left: 125px;top: 250px;
+    color:black;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.chaostheory{
+    position: absolute;
+    top: 300px;
+    text-transform: capitalize;
+    color: blueviolet;
+}

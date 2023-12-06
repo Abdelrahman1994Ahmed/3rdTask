@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 1</title>
+        <link rel="icon" type="image/x-icon" href="https://images.pexels.com/photos/19220084/pexels-photo-19220084/free-photo-of-a-bird-flying-over-a-tower-in-the-fog.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load">
+    </head>
+    <body bgcolor="Aqua">
+        <h1>Sign Up</h1>
+        <form action="./index2.html" method="post" autocomplete="on">
+            <label for="EM">Email</label>
+            <input type="email" id="EM" required placeholder="Enter your Email" tabindex="3">
+            <br>
+            <label for="Pass" >password</label>
+            <input type="password" required id="Pass" placeholder="enter your password" tabindex="1" autocomplete="off">
+            <fieldset >
+                <legend>Gender</legend>
+                <label for="MG">Male</label>
+                <input type="radio" name="Gender" value="M" id="MG">
+                <label for="FeG">Female</label>
+                <input type="radio" name="Gender" value="Fe" id="FeG">
+            </fieldset>
+            <label for="Bio">Your Bio</label>
+            <textarea rows="25" cols="50" placeholder="Enter your Bio" id="Bio" tabindex="2"></textarea>
+            <br>
+            <br>
+            <label for="Cons" >Select you country</label>
+            <br>
+            <select name="Countries" id="Cons">
+                <option value="0" disabled selected>select a country</option>
+                <option value="EGY">Egypt</option>
+                <option value="UK">UK</option>
+                <option value="US">US</option>
+                <option value="Fr" disabled>FR</option>
+
+
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
